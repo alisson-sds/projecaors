@@ -1,12 +1,30 @@
 import Link from "next/link";
-import Image from 'next/image'
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 export default function DesktopNavbar() {
 
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const section = document.getElementById('main-content');
+
+        const handleScroll = () => {
+        if (!section) return;
+        const sectionBottom = section.getBoundingClientRect().bottom;
+        console.log(sectionBottom)
+        setScrolled(sectionBottom <= 0);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+
     return (
-        <header
-            style={{ background: '#0F1E15' }}
-            className='w-full flex justify-between items-center pl-10 lg:pl-40 pr-32 text-x min-h-24 fixed z-20'
+        <header     
+            id="navbar-desk"       
+            className={`w-full flex justify-between items-center pl-10 lg:pl-40 pr-32 text-x min-h-24 fixed z-20 transition-colors duration-500 ${scrolled ? 'bg-[#0F1E15] opacity-85': "backdrop-blur-2xl"}`}
         >
             <Link href="/" className="h-[8vh] items-center flex">
                 <div className="h-full w-[16vh] relative">

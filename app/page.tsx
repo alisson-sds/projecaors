@@ -13,7 +13,6 @@ import { PiEnvelopeSimpleLight } from "react-icons/pi";
 import PortfolioSection from './components/PortfolioSection';
 import ServicosSection from './components/ServicosSection';
 import Footer from './components/Footer';
-import { Metadata } from 'next';
 
 
 const roboto700 = Roboto({
@@ -71,7 +70,7 @@ export default function Home() {
     <div style={{ overflowX: 'hidden' }}>
 
       <Navbar />
-      <div className='h-[100vh]  w-full m-auto group '>
+      <div id="main-content" className='h-[100vh]  w-full m-auto group '>
         <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='w-full h-full bg-center bg-cover duration-100'>
           <div className="h-full w-full  text-[#F8F1E7] flex flex-col justify-center items-center relative" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
             <div className='h-3/5 w-full flex flex-col  items-center  justify-between absolute bottom-0'>
