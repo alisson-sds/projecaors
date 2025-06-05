@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import WhatsAppButton from '@/app/components/WhatsAppButton';
 import Footer from '@/app/components/Footer';
 import { Roboto } from 'next/font/google';
+import WhatsappFloatingButton from '@/app/components/WhatsappFloatingButton';
 
 const roboto700 = Roboto({
     weight: '700',
@@ -25,6 +26,7 @@ export default function Detalhe() {
     return (
         <>
             <Navbar />
+            <WhatsappFloatingButton/>
             <main className="h-3/4 w-full bg-cover bg-no-repeat bg-center"
                 style={{ backgroundImage: `url('../servicos-images/${registro?.mainPhoto}` }}>
                 <div className="h-full w-full text-[#F8F1E7] opacity-40 flex justify-center items-center text-center" style={{ background: '#000000' }}>

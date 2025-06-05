@@ -4,6 +4,7 @@ import servicosData from '../../public/json-data/servicos-data.json'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Roboto } from 'next/font/google';
+import WhatsappFloatingButton from '../components/WhatsappFloatingButton';
 
 const roboto700 = Roboto({
   weight: '700',
@@ -17,7 +18,7 @@ export default function Portifolio() {
   return (
     <>
       <Navbar />
-
+      <WhatsappFloatingButton/>
       <main className="h-full w-full in-h-screen bg-cover bg-no-repeat bg-center"
         style={{ backgroundImage: `url('../../servicos-images/${registro?.mainPhoto}'` }}>
 

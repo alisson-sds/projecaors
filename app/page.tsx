@@ -13,6 +13,7 @@ import { PiEnvelopeSimpleLight } from "react-icons/pi";
 import PortfolioSection from './components/PortfolioSection';
 import ServicosSection from './components/ServicosSection';
 import Footer from './components/Footer';
+import WhatsappFloatingButton from './components/WhatsappFloatingButton';
 
 
 const roboto700 = Roboto({
@@ -67,9 +68,9 @@ export default function Home() {
   }
 
   return (
-    <div style={{ overflowX: 'hidden' }}>
-
+    <div style={{ overflowX: 'hidden' }}>          
       <Navbar />
+      <WhatsappFloatingButton/>
       <div id="main-content" className='h-[100vh]  w-full m-auto group '>
         <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='w-full h-full bg-center bg-cover duration-100'>
           <div className="h-full w-full  text-[#F8F1E7] flex flex-col justify-center items-center relative" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
