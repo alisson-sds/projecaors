@@ -12,7 +12,7 @@ const roboto700 = Roboto({
   variable: '--font-roboto-bold',
 })
 
-export default function Portifolio() {
+export default function Servicos() {
   const registro = servicosData.find(item => item.id === "2");
 
   return (

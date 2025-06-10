@@ -12,6 +12,7 @@ const roboto700 = Roboto({
   variable: '--font-roboto-bold',
 })
 
+
 export default function Portifolio() {
   const registro = portfolioData.find(item => item.id === "20");
 

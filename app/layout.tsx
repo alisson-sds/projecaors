@@ -2,32 +2,12 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: "Projeção Engenharia - Construção e Projetos | Projetos de Engenharia em Capão da Canoa",
-  description: "Projeção Engenharia: Desenvolvemos projetos estruturais e laudos técnicos para Capão da Canoa e região. Soluções personalizadas para obras residenciais e comerciais com garantia de qualidade.",
-  icons: {
-    icon: "/favicon.ico"
-  },
-  openGraph: {
-    title: "Projeção Engenharia - Construção e Projetos",
-    description: "Desenvolvemos projetos estruturais e laudos técnicos para Capão da Canoa e região",
-    url: "https://www.projecaors.com.br",
-    siteName: "Projeção Engenharia",
-    images: [
-      {
-        url: "https://www.projecaors.com.br/logo-site.png", // URL absoluta da imagem
-        width: 1200,
-        height: 630,
-        alt: "Projeção Engenharia - Soluções em construção e projetos",
-      }
-    ],
-    locale: "pt_BR",
-    type: "website",
-  },
+  title: "Projeção Engenharia | Construção e Projetos em Capão da Canoa",
+  description: "Projetos estruturais e laudos técnicos para Capão da Canoa e região. Soluções personalizadas para obras residenciais e comerciais com garantia de qualidade.",
   twitter: {
     card: "summary_large_image",
     title: "Projeção Engenharia - Construção e Projetos",
-    description: "Desenvolvemos projetos estruturais e laudos técnicos para Capão da Canoa e região",
-    images: ["https://www.projecaors.com.br/logo-site.png"], // Mesma imagem do Open Graph
+    description: "Projetos estruturais e laudos técnicos para Capão da Canoa e região",
   },
 }
 
