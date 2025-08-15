@@ -20,7 +20,7 @@ export default function MobileNavbar() {
             const handleScroll = () => {
             if (!section) return;
             const sectionBottom = section.getBoundingClientRect().bottom;
-            console.log(sectionBottom)
+
             setScrolled(sectionBottom <= 0);
             };
     
