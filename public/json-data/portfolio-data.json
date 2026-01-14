@@ -117,7 +117,8 @@
       "company": "ICS Construção",
       "companyLogo": "ics-construtora.png",
       "mainPhoto": "7.png",
-      "extraPhotos": [""
+      "extraPhotos": [
+         ""
       ],
       "videos": []
    },
@@ -276,7 +277,7 @@
       "mainPhoto": "16.png",
       "extraPhotos": [],
       "videos": []
-   },   
+   },
    {
       "id": "16",
       "name": "Rio Carreiro 86",
@@ -291,7 +292,7 @@
       "companyLogo": "metta-construtora.png",
       "mainPhoto": "18/18.png",
       "extraPhotos": [
-         "18/18a.png"         
+         "18/18a.png"
       ],
       "videos": []
    },
@@ -442,6 +443,56 @@
       ],
       "videos": [
          "https://www.youtube.com/embed/64oj9vNjzBs"
+      ]
+   },
+   {
+      "id": "25",
+      "name": "Casas Le duo",
+      "detail": "🌿LE DUO🌿",
+      "extraDetail": [      
+         "📍Capão Novo Village (Posto 09) - Capão da Canoa/RS",
+         "Casas modernas com fachada elegante em ripado, concreto aparente e detalhes em pedra natural. Projeto diferenciado, com planta que integra três ambientes de forma fluida e organizada, valorizando a luz natural através de claraboia e jardim de inverno. Nos fundos, um espaço perfeito para momentos de lazer e convivência.",
+         "🔸Localização privilegiada, a duas quadras do mar.",
+         "✔103m² privativos",
+         "✔ 3 dormitórios, sendo 1 suíte",
+         "✔ Acabamento em alto padrão",
+         "✔Living com pé direito alto",
+         "✔Garagem coberta",
+         "✔Claraboia",
+         "✔Jardim de inverno",
+         "➡Previsão de entrega MARÇO 2026",
+         "À venda nas imobiliárias locais!"
+      ],
+      "year": "2026",
+      "city": "Capão da Canoa/RS ",
+      "actions": [
+         "PROJECT",
+         "EXECUTION",
+         "CONSTRUCTION"
+      ],
+      "company": "Projeção RS Construtora",
+      "companyLogo": "projecao.png",
+      "mainPhoto": "26.png",
+      "extraPhotos": [
+         "26/1.png",
+         "26/2.png",
+         "26/5.png",
+         "26/6.png",
+         "26/7.png",
+         "26/8.png",
+         "26/9.png",
+         "26/10.png",
+         "26/11.png",
+         "26/12.png",
+         "26/13.png",
+         "26/14.png",
+         "26/15.png",
+         "26/16.png",
+         "26/3.png",
+         "26/4.png"
+      ],
+      "videos": [
+         "https://www.youtube.com/embed/4Bb4VWCd9pI"
       ]
    }
 ]

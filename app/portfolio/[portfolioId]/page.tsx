@@ -37,8 +37,8 @@ export default function DetalhesPortfolio() {
 
     return (
         <>
-            <Navbar />       
-            <WhatsappFloatingButton/>     
+            <Navbar />
+            <WhatsappFloatingButton />
             <main className="h-3/4 w-full bg-cover bg-no-repeat bg-center"
                 style={{ backgroundImage: `url('../portfolio-images/${registro?.mainPhoto}` }}>
                 <div className="h-full w-full text-[#F8F1E7] opacity-40 flex justify-center items-center text-center" style={{ background: '#000000' }}>
@@ -61,6 +61,15 @@ export default function DetalhesPortfolio() {
                             </div>
                             <div className={` h-full flex flex-col items-center text-center ${hasValidItems(registro?.extraPhotos) ? 'w-full mt-10' : 'lg:w-1/2'}`}>
                                 {registro?.detail ? <p>{registro?.detail}</p> : ""}
+                                <div className='text-center items-center'>
+                                    <br/>
+                                    {(registro?.extraDetail || []).map((detail, index) => (
+                                        <p key={index} className='text-2xl'>
+                                            • {detail}
+                                        </p>
+                                    ))}
+                                    <br/>
+                                </div>
                                 <p >Ano: {registro?.year}</p>
                                 <p>{registro?.city}</p>
                                 {registro?.actions.map((action: string, index) => (
