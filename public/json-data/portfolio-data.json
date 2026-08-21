@@ -446,22 +446,24 @@
       ]
    },
    {
-      "id": "25",
+      "id": "casa-a-venda-capao-da-canoa",
       "name": "Casas Le duo",
       "detail": "🌿LE DUO🌿",
-      "extraDetail": [      
-         "📍Capão Novo Village (Posto 09) - Capão da Canoa/RS",
+      "extraDetail": [
+         "📍Capão Novo Village (Posto 09) – Capão da Canoa/RS",
          "Casas modernas com fachada elegante em ripado, concreto aparente e detalhes em pedra natural. Projeto diferenciado, com planta que integra três ambientes de forma fluida e organizada, valorizando a luz natural através de claraboia e jardim de inverno. Nos fundos, um espaço perfeito para momentos de lazer e convivência.",
          "🔸Localização privilegiada, a duas quadras do mar.",
-         "✔103m² privativos",
-         "✔ 3 dormitórios, sendo 1 suíte",
-         "✔ Acabamento em alto padrão",
-         "✔Living com pé direito alto",
-         "✔Garagem coberta",
-         "✔Claraboia",
-         "✔Jardim de inverno",
-         "➡Previsão de entrega MARÇO 2026",
-         "À venda nas imobiliárias locais!"
+         "✔️103m² privativos",
+         "✔️ 3 dormitórios, sendo 1 suíte",
+         "✔️ Acabamento em alto padrão",
+         "✔️Living com pé direito alto",
+         "✔️Garagem coberta",
+         "✔️Claraboia",
+         "✔️Jardim de inverno",
+         "➡️Previsão de entrega OUT 2026",
+         "Obs: casas independentes, com projetos idênticos, mas estruturas e terrenos totalmente separados.",
+         "R$ 857.000,00",
+         "🔸 Praia de Capão Novo Village é um bairro planejado, com ruas asfaltadas, monitoramento por rondas 24 horas e uma infraestrutura à beira-mar impecável para o lazer de toda a família. Conta ainda com uma associação de moradores atuante, quadras esportivas, clube com piscina, restaurante, guarida de salva-vidas e quiosque durante o verão, além de diversos eventos sazonais, proporcionando mais conforto, segurança, lazer e qualidade de vida o ano todo."
       ],
       "year": "2026",
       "city": "Capão da Canoa/RS ",
@@ -472,6 +474,7 @@
       ],
       "company": "Projeção RS Construtora",
       "companyLogo": "projecao.png",
+      "pdfFile": "LE-DUO-FOLDER.pdf",
       "mainPhoto": "26.png",
       "extraPhotos": [
          "26/1.png",

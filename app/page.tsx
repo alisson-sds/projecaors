@@ -45,8 +45,14 @@ export default function Home() {
       url: 'servicos-images/construcao.png',
       title: 'CONSTRUÇÃO',
       subtitle: "Tornamos o seu sonho de construir no litoral em realidade"
+    },
+    {
+      url: 'portfolio-images/26.png',
+      title: 'LE DUO',
+      subtitle: "Casas à venda no Capão Novo Village - Capão da Canoa/RS",
+      href: '/portfolio/casa-a-venda-capao-da-canoa'
     }
-    
+
   ]
 
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -78,6 +84,13 @@ export default function Home() {
               <div className='flex flex-col items-center text-center'>
                 <h1 className={`text-5xl lg:text-8xl select-none mb-4 ${roboto700.className}`}>{slides[currentIndex].title}</h1>
                 <h3 className={`text-xl lg:text-2xl select-none p-2 ${roboto400.className}`}>{slides[currentIndex].subtitle}</h3>
+                {slides[currentIndex].href ? (
+                  <Link
+                    href={slides[currentIndex].href}
+                    className={`h-12 mt-4 px-8 text-lg bg-amber-50 border-2 border-yellow-600 text-[#A77A37] flex items-center justify-center shadow-xl hover:shadow-[0_15px_15px_rgba(0,0,0,0.50)] ${roboto500.className}`}>
+                    SAIBA MAIS
+                  </Link>
+                ) : ""}
               </div>
               <div className='flex py-2'>
                 {slides.map((slide, slideIndex) => (

@@ -77,6 +77,15 @@ export default function DetalhesPortfolio() {
                                 ))}
                                 {registro?.company ? <p className=''>Construção: {registro?.company} </p> : ""}
                                 {registro?.companyLogo ? <div className="h-[35vh] w-[50vh] bg-cover bg-center" style={{ backgroundImage: `url(../company-logos/${registro?.companyLogo})` }} /> : ""}
+                                {registro?.pdfFile ? (
+                                    <a
+                                        href={`/files/${registro.pdfFile}`}
+                                        download
+                                        className={`flex items-center justify-center h-12 px-8 mt-6 text-lg bg-amber-50 border-2 border-yellow-600 text-[#A77A37] hover:shadow-[0_15px_15px_rgba(0,0,0,0.50)] transition-colors duration-200 ${roboto400.className}`}
+                                    >
+                                        Baixar Folder em PDF
+                                    </a>
+                                ) : ""}
                             </div>
                         </div>
                         <div>
